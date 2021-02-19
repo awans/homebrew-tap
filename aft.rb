@@ -3,8 +3,8 @@ require "language/node"
 class Aft < Formula
   desc "A prototype self-hosted backend-as-a-service"
   homepage "https://awans.github.io/aft/"
-  url "https://github.com/awans/aft/archive/v0.0.3.zip"
-  sha256 "87985ba754215c4240e1b97b66503fae5d59c318daa05bcda12ad42253c4d087"
+  url "https://github.com/awans/aft/archive/v0.0.4.zip"
+  sha256 "159a1306573461b29fbaae33424f6658f80feb0ae128f86d80bfd14c0478a978"
 
   depends_on "go" => :build
   depends_on "npm" => :build
